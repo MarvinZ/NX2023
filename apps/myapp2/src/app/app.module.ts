@@ -8,7 +8,6 @@ import {Lib2Module} from '@nx208/lib2'
 import {Lib1Module} from '@nx208/lib1'
 
 
-
 @NgModule({
   declarations: [AppComponent, NxWelcomeComponent],
   imports: [
