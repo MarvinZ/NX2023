@@ -6,12 +6,13 @@ import { appRoutes } from './app.routes';
 import { NxWelcomeComponent } from './nx-welcome.component';
 import {Lib2Module} from '@nx208/lib2'
 import {Lib1Module} from '@nx208/lib1'
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
   declarations: [AppComponent, NxWelcomeComponent],
   imports: [
-    BrowserModule,
+    BrowserModule,FormsModule,
     Lib2Module,Lib1Module,
     RouterModule.forRoot(appRoutes, { initialNavigation: 'enabledBlocking' }),
   ],
